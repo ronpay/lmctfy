@@ -8,7 +8,7 @@
     <meta http-equiv="Cache-Control" content="no-siteapp">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>让我帮你百度一下 | Let Me Baidu That For You</title>
+    <title>Let Me ChatGPT That For You</title>
     
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="css/style.css" />
@@ -22,9 +22,9 @@
     <section id="search">
         <div class="search-header">
             <h2>
-                <span class="let-me">让我帮你</span> 
-                <img src="img/baidu_logo.png" alt="百度" title="让我帮你百度一下"> 
-                <span class="for-you">一下</span>
+                <span class="let-me">Let me</span> 
+                <img src="img/chatgpt_logo.svg" alt="ChatGPT" title="Let me ChatGPT that for you"> 
+                <span class="for-you">that for you</span>
             </h2>
         </div>
         
@@ -33,33 +33,32 @@
                 <div class="search-form-input">
                     <input type="search" id="kw" maxlength="255" autocomplete="off" required>
                 </div>
-                <button id="search-submit">百度一下</button>
+                <button id="search-submit">Ask ChatGPT</button>
             </div>
         </form>
     </section>
     
     <section id="function">
-        <p id="tips">输入一个问题，然后点击百度一下</p>
+        <p id="tips">Enter a question, then click Ask ChatGPT</p>
         
-        <button id="stop">快停下！我是自己人</button>
+        <button id="stop">Wait! I know how to use it!</button>
         
         <div id="output">
             <textarea id="url-output" rows="3" readonly></textarea>
             <div class="tool-btns">
-                <button data-clipboard-target="#url-output">复制</button>
-                <button id="preview">预览</button>
+                <button data-clipboard-target="#url-output">Copy</button>
+                <button id="preview">Preview</button>
             </div>
         </div>
     </section>
     
     <footer id="footer">
         <ul class="footer-left">
-            <li><a href="https://github.com/mengkunsoft/lmbtfy" target="_blank">源码下载</a></li>
-            <li><a href="http://lab.mkblog.cn/" target="_blank">更多好玩</a></li>
+            <li><a href="https://github.com/ronpay/lmctfy" target="_blank">Source Code</a></li>
         </ul>
         
         <ul class="footer-right">
-            <li>* 本站与百度公司没有任何联系，baidu 以及本站出现的百度公司 Logo 是百度公司的商标</li>
+            <li>* This site is not affiliated with OpenAI. ChatGPT and the ChatGPT logo are trademarks of OpenAI</li>
         </ul>
     </footer>
     
